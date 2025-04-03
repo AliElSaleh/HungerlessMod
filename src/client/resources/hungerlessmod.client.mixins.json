@@ -1,0 +1,12 @@
+{
+	"required": true,
+	"package": "com.alielsaleh.mixin.client",
+	"compatibilityLevel": "JAVA_21",
+	"refmap": "client-hungerlessmod.refmap.json",
+	"client": [
+		"HungerlessClientMixin"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	}
+}

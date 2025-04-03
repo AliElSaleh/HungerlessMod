@@ -1,0 +1,12 @@
+{
+	"required": true,
+	"package": "com.alielsaleh.mixin",
+	"compatibilityLevel": "JAVA_21",
+	"refmap": "hungerlessmod.refmap.json",
+	"mixins": [
+		"HungerlessManagerMixin"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	}
+}

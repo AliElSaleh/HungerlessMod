@@ -1,0 +1,41 @@
+{
+	"schemaVersion": 1,
+	"id": "hungerlessmod",
+	"version": "${version}",
+	"name": "Hungerless Mod",
+	"description": "You will no longer be hungry!",
+	"authors": [
+		"Me!"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/AliElSaleh/HungerlessMod"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/modid/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"com.alielsaleh.HungerlessMod"
+		],
+		"client": [
+			"com.alielsaleh.HungerlessModClient"
+		]
+	},
+	"mixins": [
+		"hungerlessmod.mixins.json",
+		{
+			"config": "hungerlessmod.client.mixins.json",
+			"environment": "client"
+		}
+	],
+	"depends": {
+		"fabricloader": ">=0.16.10",
+		"minecraft": "~1.21.5",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
