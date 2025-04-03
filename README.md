@@ -2,6 +2,8 @@
 
 Disables the hunger system and bar. Food directly heals you instead.
 
+![](HungerlessMod-FoodRestoresHealth.gif)
+
 
 ## License
 
